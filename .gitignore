@@ -1,0 +1,74 @@
+```gitignore
+# Nextflow
+.nextflow/
+.nextflow.log*
+work/
+
+# Pipeline outputs
+results/
+output/
+outputs/
+
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Variant files
+*.vcf
+*.vcf.gz
+*.bcf
+*.tbi
+*.csi
+*.g.vcf
+*.g.vcf.gz
+
+# Reference genomes and indexes
+*.fa
+*.fasta
+*.fna
+*.dict
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+*.fai
+
+# Local data and references
+data/
+reference/
+references/
+
+# QC output
+fastqc*/
+multiqc_data/
+multiqc_report.html
+
+# Conda / environments
+.conda/
+conda-env/
+env/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
